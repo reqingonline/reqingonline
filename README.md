@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=72&color=0:0B4F93,100:58C9FF&section=header" alt="蓝色波浪" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-star-circuit-dark.svg" />
+    <img src="./assets/header-star-circuit-light.svg" alt="蓝色星轨电路顶部装饰" width="100%" />
+  </picture>
 </p>
 
 # 你好，这里是热情。
@@ -24,6 +27,17 @@
 
 硬件是本行，代码是后来捡起来的工具，也渐渐成了另一种兴趣。
 
+## 「最近留下的脚印」
+
+<p align="center">
+  <a href="https://github.com/reqingonline">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=reqingonline&amp;theme=github-compact&amp;hide_border=true&amp;area=true" />
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=reqingonline&amp;theme=github&amp;hide_border=true&amp;area=true" alt="热情最近的 GitHub 活动图" width="100%" />
+    </picture>
+  </a>
+</p>
+
 ## 「一些链接」
 
 - [Blog](https://blog.reqing.online)
@@ -36,5 +50,8 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=72&color=0:58C9FF,100:0B4F93&section=footer" alt="蓝色波浪" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-star-circuit-dark.svg" />
+    <img src="./assets/footer-star-circuit-light.svg" alt="蓝色星轨电路底部装饰" width="100%" />
+  </picture>
 </p>
