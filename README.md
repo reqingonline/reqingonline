@@ -13,11 +13,26 @@
 
 <br clear="right" />
 
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <strong>电气</strong><br />
+      <sub>学习方向</sub>
+    </td>
+    <td align="center" width="33%">
+      <strong>硬件</strong><br />
+      <sub>主要工作</sub>
+    </td>
+    <td align="center" width="33%">
+      <strong>代码</strong><br />
+      <sub>慢慢补上</sub>
+    </td>
+  </tr>
+</table>
+
 ## 「写代码这件事」
 
 `C/C++` · `Python` · `Rust（愿望清单）`
-
-硬件是本行，代码是后来捡起来的工具，也渐渐成了另一种兴趣。
 
 ## 「最近留下的脚印」
 
