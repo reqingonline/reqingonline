@@ -23,7 +23,7 @@
 
 <p align="center">
   <a href="https://github.com/reqingonline">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=reqingonline&amp;theme=github&amp;hide_border=true&amp;area=true" alt="热情最近的 GitHub 活动图" width="100%" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=reqingonline&amp;theme=github-light&amp;hide_border=true&amp;area=true" alt="热情最近的 GitHub 活动图" width="100%" />
   </a>
 </p>
 
