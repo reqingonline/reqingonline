@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-star-circuit-dark.svg" />
-    <img src="./assets/header-star-circuit-light.svg" alt="蓝色星轨电路顶部装饰" width="100%" />
-  </picture>
+  <img src="./assets/header-morning-mist.png" alt="浅蓝晨雾星轨顶部装饰" width="100%" />
 </p>
 
 # 你好，这里是热情。
@@ -16,11 +13,6 @@
 
 <br clear="right" />
 
-## 「现在在折腾」
-
-- [节点一键脚本](https://github.com/reqingonline/sing-box-yg) —— 把常用的节点部署步骤整理成一键脚本。
-- [每日邮报推送](https://github.com/reqingonline/daily-brief-agent) —— 每天整理简报，再通过邮件发出去。
-
 ## 「写代码这件事」
 
 `C/C++` · `Python` · `Rust（愿望清单）`
@@ -31,10 +23,7 @@
 
 <p align="center">
   <a href="https://github.com/reqingonline">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=reqingonline&amp;theme=github-compact&amp;hide_border=true&amp;area=true" />
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=reqingonline&amp;theme=github&amp;hide_border=true&amp;area=true" alt="热情最近的 GitHub 活动图" width="100%" />
-    </picture>
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=reqingonline&amp;theme=github&amp;hide_border=true&amp;area=true" alt="热情最近的 GitHub 活动图" width="100%" />
   </a>
 </p>
 
@@ -46,12 +35,9 @@
 - OpenPGP Key ID：`CE23 6F6E C610 680D`
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=reqingonline&label=Profile%20views&color=0e75b6&style=flat" alt="主页访问次数" />
+  <img src="https://komarev.com/ghpvc/?username=reqingonline&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat" alt="主页访问次数" />
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-star-circuit-dark.svg" />
-    <img src="./assets/footer-star-circuit-light.svg" alt="蓝色星轨电路底部装饰" width="100%" />
-  </picture>
+  <img src="./assets/footer-morning-pulse.png" alt="浅蓝晨雾脉冲底部装饰" width="100%" />
 </p>
