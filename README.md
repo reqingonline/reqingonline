@@ -45,9 +45,9 @@
 ## 「一些链接」
 
 - [Blog](https://blog.reqing.online)
-- [Email](mailto:a180325429@gmail.com)
+- [Email](mailto:davidhengshaw@gmail.com)
 - [Telegram](https://telegram.me/Xiaore923)
-- OpenPGP Key ID：`CE23 6F6E C610 680D`
+- OpenPGP：[`7ABE 0801 596D 6C33`](./pgp-key.asc)（[keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/7D11B30D7B3F03CA1AD62C407ABE0801596D6C33)）
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=reqingonline&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat" alt="主页访问次数" />
