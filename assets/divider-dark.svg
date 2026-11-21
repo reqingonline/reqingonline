@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 24" width="1000" height="24" role="img" aria-label="分隔线">
+  <defs>
+    <linearGradient id="dl" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.85" />
+    </linearGradient>
+    <linearGradient id="dr" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <path d="M 30,12 L 240,12 L 252,7 L 360,7 L 372,12 L 478,12" fill="none" stroke="url(#dl)" stroke-width="1.5" />
+  <path d="M 522,12 L 628,12 L 640,17 L 748,17 L 760,12 L 970,12" fill="none" stroke="url(#dr)" stroke-width="1.5" />
+  <circle cx="478" cy="12" r="2.5" fill="#7dd3fc" />
+  <circle cx="522" cy="12" r="2.5" fill="#7dd3fc" />
+  <path d="M 500,4 Q 502.24,9.76 508,12 Q 502.24,14.24 500,20 Q 497.76,14.24 492,12 Q 497.76,9.76 500,4 Z" fill="#f3ca6b" opacity="0.95" />
+</svg>

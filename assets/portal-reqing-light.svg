@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 94" width="1000" height="94" role="img" aria-label="reqing.online 个人主页入口">
+  <defs>
+    <linearGradient id="pbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fbff" />
+      <stop offset="100%" stop-color="#ebf4ff" />
+    </linearGradient>
+    <linearGradient id="cta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+    <clipPath id="pclip">
+      <rect x="1" y="2" width="998" height="90" rx="16" />
+    </clipPath>
+  </defs>
+  
+  <style>
+    .sans { font-family: 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Cascadia Code', 'Consolas', 'SFMono-Regular', monospace; }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.45; }
+      50% { opacity: 1; }
+    }
+    @keyframes traceDash {
+      from { stroke-dashoffset: 64; }
+      to { stroke-dashoffset: 0; }
+    }
+    .anim-pulse { animation: pulseGlow 3.2s ease-in-out infinite; }
+    .anim-dash { stroke-dasharray: 8 8; animation: traceDash 4s linear infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .anim-pulse, .anim-dash { animation: none; }
+    }
+  </style>
+  <rect x="1" y="2" width="998" height="90" rx="16" fill="url(#pbg)" stroke="#c8e0ff" stroke-width="1.4" />
+  <g clip-path="url(#pclip)">
+    <path d="M 620,94 Q 760,14 998,48" fill="none" stroke="#c2ddfd" stroke-width="1.2" opacity="0.6" />
+    <circle cx="752" cy="28" r="2.5" fill="#c98f2b" opacity="0.7" />
+    <path d="M 770,63 Q 771.4,66.6 775,68 Q 771.4,69.4 770,73 Q 768.6,69.4 765,68 Q 768.6,66.6 770,63 Z" fill="#0ea5e9" opacity="0.55" />
+  </g>
+  <!-- Star-compass emblem -->
+  <rect x="24" y="22" width="50" height="50" rx="13" fill="#e0eeff" stroke="#b5d4ff" stroke-width="1.2" />
+  <circle cx="49" cy="47" r="15" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="3 3" />
+  <path d="M 49,36 Q 52.08,43.92 60,47 Q 52.08,50.08 49,58 Q 45.92,50.08 38,47 Q 45.92,43.92 49,36 Z" fill="#c98f2b" opacity="0.95" />
+  <circle cx="49" cy="47" r="2.5" fill="#ffffff" />
+  <!-- Copy -->
+  <text x="92" y="42" class="sans" font-size="21" font-weight="700" fill="#0f172a">reqing.online</text>
+  <rect x="244" y="23" width="138" height="22" rx="11" fill="#fff8e7" stroke="#ead092" stroke-width="1" />
+  <text x="313" y="38" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" letter-spacing="0.7" fill="#9a6700">PERSONAL PORTAL</text>
+  <text x="92" y="69" class="sans" font-size="13.5" font-weight="500" fill="#475569">热情的个人主页 · 树洞博客与社交入口都在这里</text>
+  <!-- CTA -->
+  <rect x="816" y="27" width="154" height="40" rx="20" fill="url(#cta)" />
+  <text x="893" y="52" text-anchor="middle" class="sans" font-size="14" font-weight="700" fill="#ffffff">前往主页 →</text>
+</svg>

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 188" width="1000" height="188" role="img" aria-label="热情的 GitHub 主页顶部卡片">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121d33" />
+      <stop offset="100%" stop-color="#0b1220" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="65%" stop-color="#7dd3fc" />
+      <stop offset="100%" stop-color="#f3ca6b" />
+    </linearGradient>
+    <radialGradient id="glowB" cx="20%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowG" cx="86%" cy="76%" r="42%">
+      <stop offset="0%" stop-color="#f3ca6b" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#f3ca6b" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="clipCard">
+      <rect x="1" y="1" width="998" height="186" rx="18" />
+    </clipPath>
+  </defs>
+  
+  <style>
+    .sans { font-family: 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Cascadia Code', 'Consolas', 'SFMono-Regular', monospace; }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.45; }
+      50% { opacity: 1; }
+    }
+    @keyframes traceDash {
+      from { stroke-dashoffset: 64; }
+      to { stroke-dashoffset: 0; }
+    }
+    .anim-pulse { animation: pulseGlow 3.2s ease-in-out infinite; }
+    .anim-dash { stroke-dasharray: 8 8; animation: traceDash 4s linear infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .anim-pulse, .anim-dash { animation: none; }
+    }
+  </style>
+  <rect x="1" y="1" width="998" height="186" rx="18" fill="url(#bg)" stroke="#253d63" stroke-width="1.5" />
+  <g clip-path="url(#clipCard)">
+    <rect x="1" y="1" width="998" height="186" fill="url(#glowB)" />
+    <rect x="1" y="1" width="998" height="186" fill="url(#glowG)" />
+    <!-- Top accent rim -->
+    <rect x="28" y="1" width="944" height="3" fill="url(#accentGrad)" opacity="0.85" />
+    <!-- Morning mist orbital arc -->
+    <path d="M -20,164 Q 320,18 690,118 T 1030,68" fill="none" stroke="#1d3b66" stroke-width="1.4" opacity="0.7" />
+    <path d="M 120,192 Q 490,78 960,152" fill="none" stroke="#1d3b66" stroke-width="1" opacity="0.5" />
+    <!-- Decorative PCB traces on right side -->
+    <path d="M 620,152 L 690,152 L 714,128 L 764,128" fill="none" stroke="#1d3b66" stroke-width="1.5" />
+    <path d="M 650,38 L 724,38 L 748,62 L 790,62" fill="none" stroke="#1d3b66" stroke-width="1.5" />
+    <path d="M 880,62 L 928,62 L 948,42 L 998,42" fill="none" stroke="#1d3b66" stroke-width="1.5" />
+    <path d="M 880,128 L 934,128 L 952,146 L 998,146" fill="none" stroke="#1d3b66" stroke-width="1.5" />
+    <circle cx="620" cy="152" r="3" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <circle cx="650" cy="38" r="3" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <!-- Right orbital ring + MCU artwork -->
+    <circle cx="832" cy="94" r="74" fill="none" stroke="#1d3b66" stroke-width="1.2" stroke-dasharray="4 6" />
+    <!-- Oscilloscope pulse trace -->
+    <path d="M 616,94 L 702,94 L 714,70 L 726,118 L 736,94 L 788,94" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 876,94 L 906,94 L 916,74 L 928,114 L 938,94 L 992,94" fill="none" stroke="#7dd3fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Animated pulse overlay -->
+    <path d="M 616,94 L 788,94" fill="none" stroke="#f3ca6b" stroke-width="1.4" opacity="0.6" class="anim-dash" />
+    <!-- MCU QFN package -->
+    <line x1="812" y1="52" x2="812" y2="62" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="812" y1="126" x2="812" y2="136" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="790" y1="74" x2="800" y2="74" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="864" y1="74" x2="874" y2="74" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="822" y1="52" x2="822" y2="62" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="822" y1="126" x2="822" y2="136" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="790" y1="84" x2="800" y2="84" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="864" y1="84" x2="874" y2="84" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="832" y1="52" x2="832" y2="62" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="832" y1="126" x2="832" y2="136" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="790" y1="94" x2="800" y2="94" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="864" y1="94" x2="874" y2="94" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="842" y1="52" x2="842" y2="62" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="842" y1="126" x2="842" y2="136" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="790" y1="104" x2="800" y2="104" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="864" y1="104" x2="874" y2="104" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="852" y1="52" x2="852" y2="62" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="852" y1="126" x2="852" y2="136" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="790" y1="114" x2="800" y2="114" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <line x1="864" y1="114" x2="874" y2="114" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+    <rect x="800" y="62" width="64" height="64" rx="10" fill="#0d1628" stroke="#60a5fa" stroke-width="1.8" />
+    <rect x="809" y="71" width="46" height="46" rx="6" fill="#162846" stroke="#1d3b66" stroke-width="1.2" />
+    <circle cx="814" cy="76" r="2.2" fill="#f3ca6b" />
+    <path d="M 832,81 Q 835.64,90.36 845,94 Q 835.64,97.64 832,107 Q 828.36,97.64 819,94 Q 828.36,90.36 832,81 Z" fill="#7dd3fc" opacity="0.95" class="anim-pulse" />
+    <path d="M 832,87.5 Q 833.82,92.18 838.5,94 Q 833.82,95.82 832,100.5 Q 830.18,95.82 825.5,94 Q 830.18,92.18 832,87.5 Z" fill="#f3ca6b" opacity="0.95" />
+    <!-- Floating sparkles -->
+    <path d="M 710,37 Q 711.96,42.04 717,44 Q 711.96,45.96 710,51 Q 708.04,45.96 703,44 Q 708.04,42.04 710,37 Z" fill="#f3ca6b" opacity="0.88" class="anim-pulse" />
+    <path d="M 938,126 Q 939.68,130.32 944,132 Q 939.68,133.68 938,138 Q 936.32,133.68 932,132 Q 936.32,130.32 938,126 Z" fill="#fde293" opacity="0.8" class="anim-pulse" />
+    <path d="M 662,131.5 Q 663.26,134.74 666.5,136 Q 663.26,137.26 662,140.5 Q 660.74,137.26 657.5,136 Q 660.74,134.74 662,131.5 Z" fill="#7dd3fc" opacity="0.7" />
+    <path d="M 944,43 Q 945.4,46.6 949,48 Q 945.4,49.4 944,53 Q 942.6,49.4 939,48 Q 942.6,46.6 944,43 Z" fill="#60a5fa" opacity="0.65" />
+  </g>
+  <!-- Left content -->
+  <g>
+    <rect x="40" y="28" width="374" height="26" rx="13" fill="#162947" stroke="#2c4c7a" stroke-width="1" />
+    <circle cx="58" cy="41" r="4" fill="#f3ca6b" />
+    <text x="72" y="45" class="mono" font-size="11.2" font-weight="700" letter-spacing="0.85" fill="#93c5fd">HARDWARE ENGINEER · EMBEDDED × SOFTWARE</text>
+    <text x="40" y="99" class="sans" font-size="33" font-weight="700" letter-spacing="0.5" fill="#f0f6fc">你好，这里是热情。</text>
+    <text x="40" y="133" class="sans" font-size="15" font-weight="500" fill="#a8bacf">画电路，也写代码 · 把低压嵌入式硬件和软件小工具串在一起</text>
+    <!-- Bottom status line -->
+    <circle cx="46" cy="161" r="4" fill="#34d399" class="anim-pulse" />
+    <text x="58" y="165" class="mono" font-size="11.5" font-weight="600" letter-spacing="0.5" fill="#7d92ab">PWR 3V3 · SWD READY · 长期折腾中</text>
+  </g>
+</svg>
