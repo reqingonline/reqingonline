@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="./assets/header-morning-mist.png" alt="浅蓝晨雾星轨顶部装饰" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-morning-mist-dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/header-morning-mist.png" />
+    <img src="./assets/header-morning-mist.png" alt="浅蓝晨雾星轨顶部装饰" width="100%" />
+  </picture>
 </p>
 
 # 你好，这里是热情。
@@ -84,5 +88,9 @@
 </p>
 
 <p align="center">
-  <img src="./assets/footer-morning-pulse.png" alt="浅蓝晨雾脉冲底部装饰" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-morning-pulse-dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/footer-morning-pulse.png" />
+    <img src="./assets/footer-morning-pulse.png" alt="浅蓝晨雾脉冲底部装饰" width="100%" />
+  </picture>
 </p>
