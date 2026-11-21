@@ -10,8 +10,10 @@
 
 <img align="right" width="180" src="./assets/avatar.png" alt="热情的蓝色 Q 版头像" />
 
-学的是电气，平时主要和低压嵌入式硬件打交道，也慢慢补上了固件、自动化工具和 Linux 运维。  
-现实让人安静了些，但没磨掉好奇。现在主要在把硬件、代码和工程笔记整理成能长期留得住的东西；Rust 还在愿望清单里。
+电气科班出身，平时主要和低压嵌入式硬件打交道——画原理图和 PCB、啃芯片手册、查供电与静态测试点是本行。<br />
+顺着好奇心往外摸，又慢慢把嵌入式固件、Python 自动化流水线、计算机视觉小实验、Linux 双栈运维与 Cloudflare 边缘工具一块补了起来。
+
+现实让人安静了些，但没磨掉好奇。比起追着热点跑，更喜欢把零散的硬件笔记、排故经验和顺手写出的小工具，打磨成能长期跑得稳、留得住的东西。平时也爱读点历史、经济和心理学杂书；Rust 和更底层的系统工程还在愿望清单里慢慢推进。
 
 欢迎四处看看，也欢迎来聊。
 
@@ -20,35 +22,52 @@
 <table>
   <tr>
     <td align="center" width="33%">
-      <strong>电气与硬件</strong><br />
-      <sub>平时打交道的本行</sub>
+      <strong>硬件与嵌入式</strong><br />
+      <sub>STM32 · ESP32-S3 · FreeRTOS</sub><br />
+      <sub>低压电路 · 仿真调试 · 嘉立创 EDA Pro</sub>
     </td>
     <td align="center" width="33%">
-      <strong>代码与自动化</strong><br />
-      <sub>C/C++ · Python · 慢慢补齐</sub>
+      <strong>自动化与小实验</strong><br />
+      <sub>Python · C/C++ · TypeScript</sub><br />
+      <sub>AI 流水线 · 视觉识别 · 桌面小工具</sub>
     </td>
     <td align="center" width="33%">
-      <strong>笔记与运维</strong><br />
-      <sub>Linux · 长期归档</sub>
+      <strong>运维与长期归档</strong><br />
+      <sub>Linux 双栈安全 · Cloudflare · R2 灾备</sub><br />
+      <sub>脱敏知识库 · 博客树洞 · 实测验收</sub>
     </td>
   </tr>
 </table>
 
 ## 「常去的地方」
 
-| 站点 | 说明 |
+| 站点 | 定位与内容 |
 | :--- | :--- |
-| [**Reqing · 小热**](https://reqing.online) | 个人主页与入口导航 |
-| [**热情的树洞**](https://blog.reqing.online) | 读书笔记、嵌入式与硬件学习、VPS 运维、信息安全与生活随笔 |
+| [**Reqing · 小热**](https://reqing.online) | 独立个人主页与社交入口——零追踪脚本、无数据库、原图保真、支持明暗与降噪动效的极简名片页 |
+| [**热情的树洞**](https://blog.reqing.online) | 长期写作与知识沉淀——收录嵌入式与硬件学习文档、Linux 运维笔记、信息安全实践、读书随笔与生活记录，配全栈安全加固与 Cloudflare R2 加密异地灾备 |
 
-## 「最近在维护」
+## 「正在维护与折腾过的事」
 
-- [**`daily-brief-agent`**](https://github.com/reqingonline/daily-brief-agent)（Python）—— 每天早晚定时跑一遍的中文全球新闻与市场简报流水线：多信源采集、历史去重、结构与来源多样性校验（不合格自动重写），配合安全订阅与 SMTP 逐一投递。
+- [**`daily-brief-agent`**](https://github.com/reqingonline/daily-brief-agent) · `Python` · 长期运行<br />
+  每天早晚定时执行的中文全球大事与市场简报流水线：覆盖多赛道信源采集、`72 h / 7 d` 跨期去重、来源多样性与结构硬校验（不达标自动重写），搭配精确订阅指令与 SMTP 逐一投递。
+- **工程与运维脱敏知识库** · `Markdown / Python CI` · 持续沉淀<br />
+  把跨阶段的硬件排故卡、Linux 最小权限加固、站点架构与 AI 工作流设计整理成结构化长期文档；显式区分现役基线与历史演进，并内置自动化防泄漏安检脚本与 GitHub Actions 门禁。
+- **跨界小实验与顺手工具** · `CV / 仿真 / 桌面端`<br />
+  喜欢围绕真实场景顺手造轮子——做过基于 `OpenCV / YOLO / PyQt5` 的无人机目标追踪 GUI、`Proteus` 电路仿真、牌面视觉识别与标注评测、实时语音场景的自动播控小工具，也写过本地离线桌面信息整理工具的完整架构规格。
 
-## 「手边常用的工具」
+## 「一点工程洁癖」
 
-- **硬件与嵌入式**：`ESP32-S3` · `STM32` · `FreeRTOS` · `嘉立创 EDA Pro` · `PlatformIO`
-- **代码与环境**：`C/C++` · `Python` · `TypeScript` · `Linux` · `Cloudflare` · `Rust（愿望清单）`
+- **先查底层，再看上层**：调硬件先量供电与静态点，排网络先测真实协议握手，不把“服务显示绿灯”当验收结论。
+- **默认可回滚、零误删**：动关键配置、防火墙或归档目录前先留快照与退路，待清理文件统一进隔离区人工复核，不随手 `rm`。
+- **最小权限与防泄漏边界**：公网服务降权运行，笔记、仓库与自动化脚本严禁硬编码凭据，公开交付前默认走一遍静态安检。
+- **实用之外也讲点审美**：明暗双主题不留白边、排版克制无冗余，能自己打磨干净的绝不靠臃肿插件硬凑。
+
+## 「手边的工具箱」
+
+- **硬件与仿真**：`STM32` · `ESP32-S3` · `FreeRTOS` · `嘉立创 EDA Pro` · `Proteus` · `PlatformIO` · 示波器与 Python 波形分析
+- **开发与数据**：`C / C++` · `Python`（`NumPy / SciPy / OpenCV`）· `TypeScript` · `SQLite` · `Git`
+- **系统与边缘云**：`Linux (Ubuntu / Debian)` · `iptables` · `Nginx` · `Docker` · `systemd` · `Cloudflare Workers / Pages / R2`
+- **阅读与愿望清单**：`Rust`（学习队列）· 底层网络协议 · 历史 / 经济 / 心理学随读
 
 ## 「最近留下的脚印」
 
