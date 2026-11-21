@@ -51,8 +51,8 @@
     <text x="77" y="58" class="mono" font-size="10.5" fill="#64748b">01 // FOCUS</text>
     <path d="M 291,24.5 Q 292.54,28.46 296.5,30 Q 292.54,31.54 291,35.5 Q 289.46,31.54 285.5,30 Q 289.46,28.46 291,24.5 Z" fill="#c98f2b" opacity="0.82" />
     <text x="23" y="98" class="sans" font-size="20" font-weight="700" fill="#0f172a">硬件本行</text>
-    <text x="23" y="128" class="sans" font-size="13.2" font-weight="500" fill="#475569">低压嵌入式 · STM32 · ESP32-S3</text>
-    <text x="23" y="154" class="mono" font-size="12" fill="#64748b">原理图 / PCB · 嘉立创 EDA · 调试</text>
+    <text x="23" y="128" class="sans" font-size="13.2" font-weight="500" fill="#475569">低压嵌入式 · 电路与板级调试</text>
+    <text x="23" y="154" class="mono" font-size="12" fill="#64748b">STM32 · ESP32 · 嘉立创 EDA</text>
   </g>
   <g>
     <defs>
@@ -76,8 +76,8 @@
     <text x="418" y="58" class="mono" font-size="10.5" fill="#64748b">02 // FOCUS</text>
     <path d="M 632,24.5 Q 633.54,28.46 637.5,30 Q 633.54,31.54 632,35.5 Q 630.46,31.54 626.5,30 Q 630.46,28.46 632,24.5 Z" fill="#c98f2b" opacity="0.82" />
     <text x="364" y="98" class="sans" font-size="20" font-weight="700" fill="#0f172a">软硬结合</text>
-    <text x="364" y="128" class="sans" font-size="13.2" font-weight="500" fill="#475569">固件 · 自动化脚本 · 桌面小工具</text>
-    <text x="364" y="154" class="mono" font-size="12" fill="#64748b">C / C++ · Python · TypeScript</text>
+    <text x="364" y="128" class="sans" font-size="13.2" font-weight="500" fill="#475569">固件编写 · 脚本与实用小工具</text>
+    <text x="364" y="154" class="mono" font-size="12" fill="#64748b">C / C++ · Python · PlatformIO</text>
   </g>
   <g>
     <defs>
@@ -98,11 +98,11 @@
     <circle cx="718" cy="50" r="3.5" fill="none" stroke="#2563eb" stroke-width="1.8" />
     <circle cx="734" cy="50" r="3.5" fill="none" stroke="#2563eb" stroke-width="1.8" />
     <path d="M 724,38 L 719.5,47 M 728,38 L 732.5,47 M 721.5,50 L 730.5,50" stroke="#0ea5e9" stroke-width="1.6" stroke-linecap="round" />
-    <text x="759" y="40" class="mono" font-size="11.5" font-weight="700" letter-spacing="1.1" fill="#1d4ed8">SYSTEMS</text>
+    <text x="759" y="40" class="mono" font-size="11.5" font-weight="700" letter-spacing="1.1" fill="#1d4ed8">NOTES &amp; OPS</text>
     <text x="759" y="58" class="mono" font-size="10.5" fill="#64748b">03 // FOCUS</text>
     <path d="M 973,24.5 Q 974.54,28.46 978.5,30 Q 974.54,31.54 973,35.5 Q 971.46,31.54 967.5,30 Q 971.46,28.46 973,24.5 Z" fill="#c98f2b" opacity="0.82" />
-    <text x="705" y="98" class="sans" font-size="20" font-weight="700" fill="#0f172a">系统与边缘</text>
-    <text x="705" y="128" class="sans" font-size="13.2" font-weight="500" fill="#475569">Linux 运维 · 定时流水线 · 轻量服务</text>
-    <text x="705" y="154" class="mono" font-size="12" fill="#64748b">Docker · Nginx · Cloudflare</text>
+    <text x="705" y="98" class="sans" font-size="20" font-weight="700" fill="#0f172a">折腾与记录</text>
+    <text x="705" y="128" class="sans" font-size="13.2" font-weight="500" fill="#475569">Linux 日常使用 · 笔记与工具整理</text>
+    <text x="705" y="154" class="mono" font-size="12" fill="#64748b">Linux · Shell · Git</text>
   </g>
 </svg>

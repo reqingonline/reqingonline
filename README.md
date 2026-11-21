@@ -8,9 +8,9 @@
 
 <img align="right" width="148" src="./assets/avatar.png" alt="热情的蓝色 Q 版头像" />
 
-做**低压嵌入式硬件**的工程师，平时主要和电路、板子和芯片手册打交道，也喜欢顺手写点软件，把硬件调试、自动化脚本和日常小工具串在一起。
+做**低压嵌入式硬件**的工程师，平时主要和电路、板子和芯片手册打交道，也喜欢顺手写点软件，把硬件调试和日常小工具串在一起。
 
-现实让人安静了些，但没磨掉好奇。比起堆砌花哨的概念，更喜欢做能长期跑得稳、用得顺手的东西；Rust 还在愿望清单里。欢迎四处看看，也欢迎来聊。
+比起堆砌概念，更喜欢做能跑得稳、用得顺手的东西；Rust 还在愿望清单里。欢迎四处看看，也欢迎来聊。
 
 <br clear="right" />
 
@@ -18,7 +18,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/workbench-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/workbench-light.svg" />
-    <img src="./assets/workbench-light.svg" alt="硬件本行 · 软硬结合 · 系统与边缘" width="100%" />
+    <img src="./assets/workbench-light.svg" alt="硬件本行 · 软硬结合 · 折腾与记录" width="100%" />
   </picture>
 </p>
 
@@ -38,18 +38,6 @@
       <source media="(prefers-color-scheme: dark)" srcset="./assets/portal-reqing-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="./assets/portal-reqing-light.svg" />
       <img src="./assets/portal-reqing-light.svg" alt="reqing.online 个人主页入口" width="100%" />
-    </picture>
-  </a>
-</p>
-
-### 「最近在维护」
-
-<p align="center">
-  <a href="https://github.com/reqingonline/daily-brief-agent">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/project-brief-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="./assets/project-brief-light.svg" />
-      <img src="./assets/project-brief-light.svg" alt="daily-brief-agent 项目卡片" width="100%" />
     </picture>
   </a>
 </p>
